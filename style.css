@@ -3,3 +3,20 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body {
+background-image: url(images/2015_mercedes_benz_glc_coupe_concept_2-wide.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background: width 50px;
+
+}
+.url {
+font-size: xx-large;
+}
+
+.heading {
+    font-size: 50px;
+    flex: ;
+} 
