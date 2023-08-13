@@ -10,7 +10,8 @@ body {
   background-size: cover;
   background-position: center;
   height: 80vh;
-  font-size: large;
+  font-size: x-large;
+  color: rgb(245, 240, 220);
 }
 
  nav {
@@ -22,6 +23,14 @@ body {
     background-color: rgba(255, 255, 240, 0.534);
     box-shadow: 0 0 10px;
     color: rgb(255, 254, 196);
+}   
+
+.heading  {
+    background-color: rgba(255, 196, 0, 0.603);
+}
+
+.heading p {
+    color: rgba(0, 0, 0, 0.801);
 }
 
 ul {
@@ -38,6 +47,7 @@ li {
 a {
     text-decoration: none;
     font-weight: 500;
+    color: rgb(245, 250, 215);
 
 }
 
