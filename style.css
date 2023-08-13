@@ -19,8 +19,9 @@ body {
     padding: 5px 20px;
     height: 14vh;
     justify-content: space-between;
-    background-color: rgba(243, 255, 240, 0.486);
-    box-shadow: 0 0 20px
+    background-color: rgba(255, 255, 240, 0.534);
+    box-shadow: 0 0 10px;
+    color: rgb(255, 254, 196);
 }
 
 ul {
@@ -31,6 +32,7 @@ ul {
 
 li {
     list-style: none;
+    color: rgb(255, 255, 240);
 }
 
 a {
@@ -38,11 +40,20 @@ a {
     font-weight: 500;
 
 }
+
 a:hover {
     text-decoration: underline;
     transition: 1s;
-    
+
 }
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(158, 131, 8);
+}
+
+
 
 
 
