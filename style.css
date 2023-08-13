@@ -5,18 +5,21 @@
 }
 
 body {
-background-image: url(images/2015_mercedes_benz_glc_coupe_concept_2-wide.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-background: width 50px;
-
-}
-.url {
-font-size: xx-large;
+  background-image: url(images/2015_mercedes_benz_glc_coupe_concept_2-wide.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  font-size: large;
 }
 
-.heading {
-    font-size: 50px;
-    flex: ;
-} 
+ nav {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    height: 17vh;
+    justify-content: space-between;
+    background-color: rgba(243, 255, 240, 0.486);
+    box-shadow: 0 0 20px
+}
+
