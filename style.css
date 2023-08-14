@@ -48,14 +48,13 @@ a {
     text-decoration: none;
     font-weight: 500;
     color: rgb(245, 250, 215);
-
 }
 
 a:hover {
     text-decoration: underline;
     transition: 1s;
-
 }
+
 main {
     display: flex;
     align-items: center;
