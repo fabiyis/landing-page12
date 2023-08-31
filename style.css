@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-image: url(images/2015_mercedes_benz_glc_coupe_concept_2-wide.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  font-size: x-large;
+  color: rgb(245, 240, 220);
+}
+
+ nav {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    height: 14vh;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 240, 0.534);
+    box-shadow: 0 0 10px;
+    color: rgb(255, 254, 196);
+}   
+
+.heading  {
+    background-color: rgba(255, 196, 0, 0.603);
+}
+
+.heading p {
+    color: rgba(0, 0, 0, 0.801);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+    color: rgb(255, 255, 240);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(245, 250, 215);
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(158, 131, 8);
+    margin-bottom: 25rem;
+    padding: 10px;
+}
+
+footer {
+    background-color: azure;
+    height: 60px;
+}
+
+footer p {
+    color: rgba(158, 131, 8);
+    font-size: 25px;
+    margin-left: 10px;
+    padding: 10px;
+}
